@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import DisplayQues from './DisplayQues';
-import NextButton from './NextButton';
-import PreviousButton from './Previous';
+import DisplayQues from './Components/DisplayQues';
+import NextButton from './Components/NextButton';
+import PreviousButton from './Components/Previous';
 
 function App() {
   const QuestionID = ['AreaUnderTheCurve_901','BinomialTheorem_901','DifferentialCalculus2_901'];
