@@ -4,7 +4,7 @@ import React from "react";
 function PreviousButton({fetchdata}){
     return(
         <>
-            <button disabled={ localStorage.getItem('Questiontracker') === 0 } onClick={() => {
+            <button className="Previous" disabled={ localStorage.getItem('Questiontracker') <=0 } onClick={() => {
                 let getLocalTracker = localStorage.getItem('Questiontracker')
                 if(getLocalTracker >=0 )
                 {
